@@ -45,9 +45,8 @@ const Sidebar = () => {
               )}
             </div>
             <ul
-              className={`mt-2 space-y-2 text-slate-600 overflow-hidden transition-all duration-300 ease-in-out ${
-                isOrganizationOpen ? "max-h-40" : "max-h-0"
-              }`}
+              className={`mt-2 space-y-2 text-slate-600 overflow-hidden transition-all duration-300 ease-in-out ${isOrganizationOpen ? "max-h-40" : "max-h-0"
+                }`}
             >
               <li className="px-2 flex items-center gap-2">
                 <PiBuildingsBold className="text-2xl" />
