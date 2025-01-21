@@ -50,7 +50,7 @@ const Sidebar = () => {
               }`}
             >
               <li className="px-2 flex items-center gap-2">
-                <PiBuildingsBold className="text-2xl"/>
+                <PiBuildingsBold className="text-2xl" />
                 <span>Kelick</span>
               </li>
             </ul>
